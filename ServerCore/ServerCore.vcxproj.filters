@@ -40,6 +40,9 @@
     <ClInclude Include="ThreadManager.h">
       <Filter>소스 파일\Thread</Filter>
     </ClInclude>
+    <ClInclude Include="SocketUtils.h">
+      <Filter>소스 파일\Network</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -59,6 +62,9 @@
     </ClCompile>
     <ClCompile Include="ThreadManager.cpp">
       <Filter>소스 파일\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketUtils.cpp">
+      <Filter>소스 파일\Network</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
